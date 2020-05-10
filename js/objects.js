@@ -42,6 +42,20 @@ console.log(user['name']);
 
 console.log(typeof user);
 
-// Adding Methods
+// Math Object
 
+console.log(Math);
+console.log(Math.PI);
+console.log(Math.E);
+
+const area = 7.7;
+
+console.log(Math.round(area));// Does actual rounding
+console.log(Math.floor(area)); // Rounds down
+console.log(Math.ceil(area)); // rounds up
+console.log(Math.trunc(area)); // truncates decimal
+
+// random numbers generator
+const random = Math.random();
+console.log(Math.round(random * 100)); // Produces a random number between 0 and 100
 
